@@ -1,7 +1,9 @@
 import React, { FC } from "react";
+import Footer from "../pages/footer"
 
 const Home: FC = () => {
-  return <div className="text-3xl">hoge</div>;
+  return (
+    <div><Footer/></div>);
 };
 
 export default Home;
